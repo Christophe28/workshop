@@ -1,0 +1,70 @@
+@import './settings.scss';
+
+body {
+    margin: 0;
+    padding: 10px;
+    
+    header {
+
+        width: 100%;
+        height: 200px;
+        background: url('../pictures/header-SEO.jpg');
+
+        nav {
+            
+            ul {
+                list-style-type: none;
+                padding: 0px;
+                
+
+                display: flex;
+                justify-content: space-between;
+
+                li {
+
+                    a {
+                        text-decoration: none;
+                        color: $color-2;
+                        font-size: 20px;
+                        background-color: rgb(255, 255, 255);
+
+                        &:active {
+                            color: $color-3;
+                        }
+                    }
+                }
+                //Li class margin-left
+                .margin-left {
+                    margin-left: 10%;
+                }
+            }
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 1.5rem;
+            line-height: 100px;
+        }
+        @media screen and (min-width: 786px) {
+            h1 {
+                font-size: 3rem;              
+            }
+            
+        }
+    } //End header
+
+    main {
+        h2 {
+            text-align: center;
+            color: blue;
+        }
+    } //End main
+
+    footer {
+        background-color: $color-2;
+        color: $color-1;
+        h2 {
+            text-align: center;
+        }
+    } //End footer
+}

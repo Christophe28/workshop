@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  padding: 10px;
+}
+
+body header {
+  width: 100%;
+  height: 200px;
+  background: url("../pictures/header-SEO.jpg");
+}
+
+body header nav ul {
+  list-style-type: none;
+  padding: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body header nav ul li a {
+  text-decoration: none;
+  color: #262c8a;
+  font-size: 20px;
+  background-color: white;
+}
+
+body header nav ul li a:active {
+  color: green;
+}
+
+body header nav ul .margin-left {
+  margin-left: 10%;
+}
+
+body header h1 {
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 100px;
+}
+
+@media screen and (min-width: 786px) {
+  body header h1 {
+    font-size: 3rem;
+  }
+}
+
+body main h2 {
+  text-align: center;
+  color: blue;
+}
+
+body footer {
+  background-color: #262c8a;
+  color: white;
+}
+
+body footer h2 {
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */
