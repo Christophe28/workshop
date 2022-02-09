@@ -44,7 +44,11 @@
     </main>
 
     <footer>
-        <h2>Footer</h2>
+        <ul>
+            <li>
+                <a href="./otherPage/privacy.html">Privacy policity</a>
+            </li>
+        </ul>
     </footer>
 </body>
 </html>

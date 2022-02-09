@@ -53,11 +53,26 @@ body main h2 {
 }
 
 body footer {
-  background-color: #262c8a;
-  color: white;
+  background-color: black;
 }
 
 body footer h2 {
   text-align: center;
+}
+
+body footer ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0;
+}
+
+body footer ul li a {
+  text-decoration: none;
+  color: #FF5959;
 }
 /*# sourceMappingURL=style.css.map */
