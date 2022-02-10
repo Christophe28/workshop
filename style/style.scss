@@ -1,5 +1,6 @@
 @import './settings.scss';
 
+
 body {
     margin: 0;
     padding: 10px;
@@ -10,35 +11,7 @@ body {
         height: 200px;
         background: url('../pictures/header-SEO.jpg');
 
-        nav {
-            
-            ul {
-                list-style-type: none;
-                padding: 0px;
-                
-
-                display: flex;
-                justify-content: space-between;
-
-                li {
-
-                    a {
-                        text-decoration: none;
-                        color: $color-2;
-                        font-size: 20px;
-                        background-color: rgb(255, 255, 255);
-
-                        &:active {
-                            color: $color-3;
-                        }
-                    }
-                }
-                //Li class margin-left
-                .margin-left {
-                    margin-left: 10%;
-                }
-            }
-        }
+        @import './navbar.scss';
 
         h1 {
             text-align: center;
