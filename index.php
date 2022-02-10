@@ -11,61 +11,7 @@
 <body>
 
     <header>
-        <nav class="navbar">
-            <ul>
-                <li>
-                    <a href="#">Technique</a>
-
-                    <ul>
-                        <li>
-                            <a href="">Robots.txt</a>
-                        </li>
-                        <li>
-                            <a href="">Framework</a>
-                        </li>
-                        <li>
-                            <a href="">Images</a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="margin-left">
-                    <a href="#">Outils</a>
-
-                    <ul>
-                        <li>
-                            <a href="">Google</a> 
-                        </li>
-                        <li>
-                            <a href="">Validateur</a> 
-                        </li>
-                    </ul>
-                </li>
-                <li class="margin-left">
-                    <a href="#">Astuces</a>
-
-                    <ul>
-                        <li>
-                            <a href="">Erreur SEO</a> 
-                        </li>
-                    </ul>
-                </li>
-                <li class="margin-left">
-                    <a href="#">Dossiers</a>
-
-                    <ul>
-                        <li>
-                            <a href="">Rédaction SEO</a>
-                        </li>
-                        <li>
-                            <a href="">Indexation Google</a>
-                        </li>
-                        <li>
-                            <a href="">Tendances</a>
-                        </li>
-                    </ul>
-                </li>
-            </ul>
-        </nav>
+        <?php include('./component/navbar.php'); ?>
 
         <h1>Tout apprendre sur le S.E.O</h1>    
     </header>
