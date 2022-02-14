@@ -9,6 +9,6 @@
 <body>
     <h1>Articles sur les techniques à utiliser avec les frameworks pour le SEO</h1>
 
-    <a href="">Comment gérer le <strong>SEO</strong> avec javascript et ses <strong>framework</strong></a>
+    <a href="../articles/article.php?id=4">Comment gérer le <strong>SEO</strong> avec javascript et ses <strong>framework</strong></a>
 </body>
 </html>

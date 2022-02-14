@@ -9,8 +9,8 @@
 <body>
     <h1>Tous les articles sur les tendances SEO</h1>
 
-    <a href="">Une nouvelle api disponible sur Search Console</a>
+    <a href="../articles/article.php?id=5">Une nouvelle api disponible sur Search Console</a>
 
-    <a href="">Les sites gagnants en <strong>SEO</strong> en 2021</a>
+    <a href="../articles/article.php?id=7">Les sites gagnants en <strong>SEO</strong> en 2021</a>
 </body>
 </html>

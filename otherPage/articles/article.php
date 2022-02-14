@@ -1,12 +1,23 @@
+<?php include("../../request/request.php"); ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ici nous allons mettre de la logique php pour faire des pages dynamique je crois</title>
+    <meta name="viewport" content="<?php echo $result['subtitle'];?>">
+    <link rel="stylesheet" href="../../style/style.css">
+    <title><?php echo $result['title'] ?></title>
 </head>
 <body>
-    <p>Ici nous allons afficher les pages des articles en fonction du lien cliqué. Voir avec David comment faire</p>
+    <header>
+        <?php include("../../component/navbar.php");?>
+
+        <h1> <?php echo $result['title']?></h1>
+    </header>
+
+    <?php echo $result['content']; ?>
+
+ 
 </body>
 </html>

@@ -9,7 +9,7 @@
 <body>
     <h1>Tous les articles sur les balises et le SEO</h1>
 
-    <a href="">Le guide ultime pour optimiser la balise H1</a>
-    <a href="">Optimiser son référencement naturel par la balise title</a>
+    <a href="../articles/article.php?id=10">Le guide ultime pour optimiser la balise H1</a>
+    <a href="../articles/article.php?id=11">Optimiser son référencement naturel par la balise title</a>
 </body>
 </html>

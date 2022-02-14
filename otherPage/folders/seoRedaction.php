@@ -9,6 +9,6 @@
 <body>
     <h1>Tous les articles sur la redaction SEO</h1>
 
-    <a href="">Qu'est que la <strong>redaction SEO</strong>?</a>
+    <a href="../articles/article.php?id=9">Qu'est que la <strong>redaction SEO</strong>?</a>
 </body>
 </html>

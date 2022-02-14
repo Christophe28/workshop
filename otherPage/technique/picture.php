@@ -9,6 +9,6 @@
 <body>
     <h1>Tous les articles sur le référencement image pour le SEO</h1>
 
-    <a href="">Le meilleur moyen pour <strong>référencer ses images en SEO</strong></a>
+    <a href="../articles/article.php?id=12">Le meilleur moyen pour <strong>référencer ses images en SEO</strong></a>
 </body>
 </html>

@@ -1,3 +1,4 @@
+<?php include("../../request/request.php"); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,8 +10,8 @@
 <body>
     <h1>Tous les articles sur les erreurs les plus fréquentes en SEO</h1>
 
-    <a href="">57 horreurs/ <strong>erreurs</strong> du <strong>SEO</strong></a>
+    <a href="../articles/article.php?id=1">57 horreurs/ <strong>erreurs</strong> du <strong>SEO</strong></a>
 
-    <a href="">Contrer les chutes de <strong>trafic SEO</strong></a>
+    <a href="../articles/article.php?id=8">Contrer les chutes de <strong>trafic SEO</strong></a>
 </body>
 </html>
