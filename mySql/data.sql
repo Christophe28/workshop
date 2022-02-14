@@ -79,6 +79,7 @@ DROP TABLE IF EXISTS `category`;
 CREATE TABLE IF NOT EXISTS `category` (
   `id` bigint(20) NOT NULL AUTO_INCREMENT,
   `name` text NOT NULL,
+  `content` text NOT NULL,
   `parent_id` bigint(20) NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=MyISAM AUTO_INCREMENT=13 DEFAULT CHARSET=latin1;
@@ -87,21 +88,25 @@ CREATE TABLE IF NOT EXISTS `category` (
 -- Déchargement des données de la table `category`
 --
 
-INSERT INTO `category` (`id`, `name`, `parent_id`) VALUES
-(1, 'Rédaction SEO', 8),
-(2, 'Technique', 0),
-(3, 'Outils', 0),
-(4, 'Google', 3),
-(5, 'Validateur', 3),
-(6, 'Astuces', 0),
-(7, 'Erreur SEO', 6),
-(8, 'Dossier', 0),
-(9, 'Indexation Google', 8),
-(10, 'Robots.txt', 2),
-(11, 'Framework', 2),
-(12, 'Tendances', 8),
-(13, 'Images', 2),
-(14, 'Balises', 2);
+INSERT INTO `category` (`id`, `name`, `content`, `parent_id`) VALUES
+(1, 'Rédaction SEO', " <h1>Tous les articles sur la redaction SEO</h1>
+<a href='../articles/article.php?id=9'>Qu'est que la <strong>redaction SEO</strong>?</a>", 8),
+(2, 'Technique', "", 0),
+(3, 'Outils', "", 0),
+(4, 'Google', "<h1>Google</h1>
+    <a href='../articles/article.php?id=5'>Google Search Console: A quoi ça sert?</a>", 3),
+(5, 'Validateur', "<h1>Validateur</h1><a href='../articles/article.php?id=15'>Validation W3C et référencement</a>", 3),
+(6, 'Astuces', "", 0),
+(7, 'Erreur SEO', "    <h1>Tous les articles sur les erreurs les plus fréquentes en SEO</h1> <a href='../articles/article.php?id=1'>57 horreurs/ <strong>erreurs</strong> du <strong>SEO</strong></a> <a href='../articles/article.php?id=8'>Contrer les chutes de <strong>trafic SEO</strong></a>", 6),
+(8, 'Dossier', "", 0),
+(9, 'Indexation Google', "    <h1>Tous les articles sur l'indexation Google</h1> <a href='../articles/article.php?id=2'>Comment faire <strong>indexer</strong> ses pages sur Google ?</a>", 8),
+(10, 'Robots.txt', "<p>Vous découvrirez les meilleurs <strong>techniques SEO</strong> pour améliorer votre <strong>référencement</strong> et atteindre la <strong>première place dans les moteurs de recherches</strong></p> <a href='../articles/article.php?id=3'>La nouvelle balise indexifembedded</a> <a href='../articles/article.php?id=6'>Utiliser le fichier robot.txt</a>", 2),
+(11, 'Framework', "    <h1>Articles sur les techniques à utiliser avec les frameworks pour le SEO</h1> <a href='../articles/article.php?id=4'>Comment gérer le <strong>SEO</strong> avec javascript et ses <strong>framework</strong></a>", 2),
+(12, 'Tendances', "<h1>Tous les articles sur les tendances SEO</h1>
+<a href='../articles/article.php?id=5'>Une nouvelle api disponible sur Search Console</a> <a href='../articles/article.php?id=7'>Les sites gagnants en <strong>SEO</strong> en 2021</a>", 8),
+(13, 'Images', "    <h1>Tous les articles sur le référencement image pour le SEO</h1>
+<a href='../articles/article.php?id=12'>Le meilleur moyen pour <strong>référencer ses images en SEO</strong></a>", 2),
+(14, 'Balises', " <h1>Tous les articles sur les balises et le SEO</h1> <a href='../articles/article.php?id=10'>Le guide ultime pour optimiser la balise H1</a> <a href='../articles/article.php?id=11'>Optimiser son référencement naturel par la balise title</a>", 2);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
