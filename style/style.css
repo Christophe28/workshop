@@ -9,6 +9,10 @@ body header {
   background: url("../pictures/header-SEO.jpg");
 }
 
+body header ul a {
+  color: black;
+}
+
 body header nav {
   text-align: center;
 }
@@ -71,10 +75,6 @@ body header .menu > li:hover .sub-menu li {
 body header .menu > li:hover .sub-menu {
   -webkit-transform: scale(1);
           transform: scale(1);
-}
-
-body header ol li a {
-  color: black;
 }
 
 body header h1 {
