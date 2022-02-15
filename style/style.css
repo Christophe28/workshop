@@ -73,6 +73,10 @@ body header .menu > li:hover .sub-menu {
           transform: scale(1);
 }
 
+body header ol li a {
+  color: black;
+}
+
 body header h1 {
   text-align: center;
   font-size: 1.5rem;

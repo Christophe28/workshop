@@ -13,6 +13,14 @@ body {
 
         @import './navbar.scss';
 
+        ol {
+            li {
+                a {
+                    color: black;
+                }
+            }
+        }
+
         h1 {
             text-align: center;
             font-size: 1.5rem;

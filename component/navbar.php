@@ -32,4 +32,14 @@
           </ul>
         </li>
       </ul>
-    </nav>
+</nav>
+
+<ol itemscope itemtype="https://schema.org/BreadcrumbList">
+  <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+    <a itemprop="item" href="https://php.fyi/articles/php-breadcrumbs">
+      <span itemprop="name">Title</span>
+    </a>
+      <meta itemprop="position" content="1" />
+   </li>
+   
+</ol>
