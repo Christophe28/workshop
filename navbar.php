@@ -17,21 +17,27 @@
         <?php include('./component/navbar.php'); ?>
         <h1>Navbar</h1>
 
-    <nav class="menu">
-        <ul>
+    <nav>
+        <ul class="menu">
             <li><a href="<?php echo $server_url;?>index.php">Accueil</a></li>
             <?php
                 while($result_navbar = $req_navbar -> fetch()){
             ?>
             <li>
-                <a href=""><?php echo $result_navbar['name']; ?></a>
+                <a href="<?php echo $server_url.$result_navbar['name'];?>"><?php echo $result_navbar['name']; ?></a>
+                
+                <ul class="sub-menu">
+                    <li>
+                        
+                        <a href=""><?php echo $result_navbar['name']; ?></a>
+                    </li>
+                </ul>
             </li>
             <?php   
                 }
             ?>
         </ul>
     </nav>
-        
     </header>
 </body>
 </html>
