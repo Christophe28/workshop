@@ -3,7 +3,7 @@ $server_url = "http://localhost/workshop/";
 $carac_to_kill = array(" ", "’", "'");
 
 try{
-    $bdd = new PDO('mysql:host=127.0.0.1; dbname=SEO_articles', 'Kriss', 'Sommation01');
+    $bdd = new PDO('mysql:host=127.0.0.1; dbname=SEO_articles', '', '');
 }
 catch(Exception $e){
     die('Erreur :'.$e->getMessage());
