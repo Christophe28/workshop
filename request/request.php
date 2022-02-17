@@ -43,6 +43,9 @@ if ($type=="category") {
         $fil_arianne.="<li><a href='".$server_url.$fil_arianne_parent_response['name']."'>".$fil_arianne_parent_response['name']."</a></li>";
 
         $fil_arianne.="<li><a href='".$server_url.$result_category['name']."'>".$result_category['name']."</a></li>";
+
+        $show_canonical=true;
+        $canonical_url="<link rel='canonical' href='".$server_url.$fil_arianne_parent_response['name']."' />";
     }
 
     $req_article_from_category = $bdd -> query("SELECT id, title, subtitle, content, image_url, image_alt, rewriting_url 

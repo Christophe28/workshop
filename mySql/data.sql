@@ -28,6 +28,7 @@ SET time_zone = "+00:00";
 -- Structure de la table `article`
 --
 
+DROP TABLE IF EXISTS `article`;
 CREATE TABLE `article` (
   `id` bigint NOT NULL,
   `title` text NOT NULL,
@@ -67,6 +68,7 @@ INSERT INTO `article` (`id`, `title`, `subtitle`, `category_id`, `content`, `ima
 -- Structure de la table `category`
 --
 
+DROP TABLE IF EXISTS `article`
 CREATE TABLE `category` (
   `id` bigint NOT NULL,
   `name` text NOT NULL,
