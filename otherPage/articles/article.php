@@ -9,7 +9,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="<?php echo $result['subtitle'];?>">
-    <link rel="stylesheet" href="../../style/style.css">
+    <link rel="stylesheet" href="<?php echo $server_url; ?>style/style.css">
     <title><?php echo $result['title'] ?></title>
 </head>
 <body>

@@ -14,7 +14,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../../style/style.css" />
+    <link rel="stylesheet" href="<?php echo $server_url; ?>style/style.css" />
     <title><?php echo $result_category['name'];?></title>
     <meta name="description" content="<?php echo $result_category['description'];?>" />
 </head>
@@ -36,7 +36,12 @@
                 ?>
                 <article>
                     <h2>
-                        <a href="<?php echo $show_article['rewriting_url '] ?>">
+                        <a href="<?php 
+                                        echo $server_url;
+                                        if (isset($parent_category_for_link_article)) echo $parent_category_for_link_article."/";
+                                        echo cleanCategoryName($show_article['categoryCurrent'])."/".$show_article['rewriting_url']; 
+                                 ?>
+                        ">
                             <?php 
                             echo $show_article['title']; 
                             ?>
