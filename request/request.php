@@ -2,7 +2,7 @@
 $server_url = "http://localhost/workshop/";
 
 try{
-    $bdd = new PDO('mysql:host=127.0.0.1; dbname=SEO_articles', '', '');
+    $bdd = new PDO('mysql:host=127.0.0.1; dbname=SEO_articles', 'Kriss', 'Sommation01');
 }
 catch(Exception $e){
     die('Erreur :'.$e->getMessage());
