@@ -1,0 +1,41 @@
+Options +FollowSymlinks
+RewriteEngine on
+RewriteRule ^(.*)index.php$ http://localhost/workshop/$1 [R=301,L]
+
+RewriteRule Technique/Robots.txt/Indexifembedded_nouvelle_balise_meta_robots_par_Google otherPage/articles/article.php?id=3
+RewriteRule Technique/Robots.txt/Fichier_robots_txt_erreurs_frequentes_et_astuces otherPage/articles/article.php?id=6
+RewriteRule Technique/Framework/Javascript_React_Angular_VueJS_et_le_SEO otherPage/articles/article.php?id=4
+RewriteRule Technique/Images/Comment_bien_référencer_les_images_pour_le_SEO otherPage/articles/article.php?id=12
+RewriteRule Technique/Balises/La_balise_Title_les_meilleures_pratiques_SEO otherPage/articles/article.php?id=11
+RewriteRule Technique/Balises/Balise_H1_Le_guide_ultime_pour_bien_optimiser_votre_référencement otherPage/articles/article.php?id=10
+
+RewriteRule Outils/Google/Google_Search_Console_A_quoi_sert_elle_et_comment_bien_l_utiliser otherPage/articles/article.php?id=14
+RewriteRule Outils/Validateur/Validation_W3C_et_référencement otherPage/articles/article.php?id=15
+
+RewriteRule Astuces/Erreur_SEO/Les_pires_horreurs_du_SEO otherPage/articles/article.php?id=1
+RewriteRule Astuces/Erreur_SEO/Lutter_contre_la_chute_de_traffic otherPage/articles/article.php?id=8
+
+RewriteRule Dossier/Redaction_SEO/Qu_est_ce_que_la_rédaction_SEO otherPage/articles/article.php?id=9
+RewriteRule Dossier/Indexation_Google/Guide_sur_l_indexation_Google otherPage/articles/article.php?id=16
+RewriteRule Dossier/Tendances/Quels_sont_les_sites_gagnants_en_SEO_en_2021 otherPage/articles/article.php?id=7
+RewriteRule Dossier/Tendances/Google_propose_une_API_pour_l_Inspection_d_URL_dans_la_Search_Console otherPage/articles/article.php?id=5
+RewriteRule Dossier/Redaction_SEO/Maillage_interne otherPage/articles/article.php?id=17
+
+RewriteRule Technique/Outils otherPage/category/category.php?id=3
+RewriteRule Technique/Robots.txt otherPage/category/category.php?id=10
+RewriteRule Technique/Images otherPage/category/category.php?id=13
+RewriteRule Technique/Framework otherPage/category/category.php?id=11
+RewriteRule Technique/Balise otherPage/category/category.php?id=14
+RewriteRule Technique otherPage/category/category.php?id=2
+
+RewriteRule Outils/Validateur otherPage/category/category.php?id=5
+RewriteRule Outils/Google otherPage/category/category.php?id=4
+RewriteRule Outils otherPage/category/category.php?id=3
+
+RewriteRule Astuces/Erreur_SEO otherPage/category/category.php?id=7
+RewriteRule Astuces otherPage/category/category.php?id=6
+
+RewriteRule Dossier/Redaction_SEO otherPage/category/category.php?id=1
+RewriteRule Dossier/Indexation_Google otherPage/category/category.php?id=9
+RewriteRule Dossier/Tendances otherPage/category/category.php?id=12
+RewriteRule Dossier otherPage/category/category.php?id=8
