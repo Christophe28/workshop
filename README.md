@@ -4,9 +4,12 @@ Technologies used: HTML, CSS, PHP, MySQL
 
 Workshop dedicated to SEO during the BeCode bootcamp
 
+
+## How the workshop will be conducted:
+
 During the workshop, we make the candidates discover what SEO is and understand how it works.
 
-The public is placed in groups of 2 to find out what are the errors of the site they are proposed
+The public is placed in groups of 2 to find out what are the errors of the site they are proposed.
 
 Their challenge will be to redo the site with the good practices of SEO 
 
