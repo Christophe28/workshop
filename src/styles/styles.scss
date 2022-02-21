@@ -11,6 +11,8 @@ $color-dark: scale-color($color, $lightness: -30%);
 //************* @IMPORT ****************//
 @import "navbar.scss";
 @import "category.scss";
+@import "article.scss";
+@import "index.scss";
 
 * {
     margin: 0;
@@ -33,7 +35,7 @@ body {
     h1 {
         font-size: 6vh;
         text-align: center;
-        color: $color2;
+        color: black;
         padding: 1rem;
 
     }

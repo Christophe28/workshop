@@ -18,8 +18,9 @@
     <header>
         <?php 
             include('../../component/navbar.php');
-            echo $fil_arianne;
         ?>
+        <img>
+        <?php echo $fil_arianne; ?>
         <h1>
             <?php 
                 echo $result_category['name'];

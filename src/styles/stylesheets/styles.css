@@ -205,6 +205,20 @@ nav ul li {
   font-weight: 500;
 }
 
+.article section {
+  border-bottom: 2px solid #5270ff;
+}
+
+.flex-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -230,7 +244,7 @@ header .header-BG {
 header h1 {
   font-size: 6vh;
   text-align: center;
-  color: grey;
+  color: black;
   padding: 1rem;
 }
 

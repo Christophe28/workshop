@@ -24,8 +24,10 @@
             ?>
         </h1>
     </header>
-    <main>
-    <?php echo $result['content']; ?>
+    <main class="article">
+        <article>
+            <?php echo $result['content']; ?>
+        </article>
     </main>
 </body>
 </html>
