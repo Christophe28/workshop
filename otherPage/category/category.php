@@ -1,7 +1,7 @@
 <?php 
     $type="category";
     include('../../request/request.php');
-    $tag_to_kill = array("<h1>", "</h1>", "<h2>", "</h2>", "<h3>", "</h3>");
+    $tag_to_kill = array("<h1>", "</h1>", "<h2>", "</h2>", "<h3>", "</h3>", "<article>");
 ?>
 <!DOCTYPE html>
 <html lang="fr">
@@ -14,23 +14,24 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="<?php echo $server_url; ?>style/style.css" />
+    <link rel="stylesheet" href="<?php echo $server_url; ?>src/styles/stylesheets/styles.css" />
     <title><?php echo $result_category['name'];?></title>
     <meta name="description" content="<?php echo $result_category['description'];?>" />
 </head>
 <body>
     <header>
-        <?php 
+    <?php 
             include('../../component/navbar.php');
-            echo $fil_arianne;
         ?>
+        <img class="header-BG" src="<?php echo $server_url;?>assets/header.png" alt="tout savoir sur le SEO"/>
+        <?php echo $fil_arianne;?>
         <h1>
             <?php 
                 echo $result_category['name'];
             ?>
         </h1>
     </header>
-    <main>
+    <main class="category">
         <?php
             while ($show_article = $req_article_from_category->fetch()){
                 ?>
@@ -47,7 +48,7 @@
                             ?>
                         </a>
                     </h2>
-                    <img src="<?php echo $show_article['image_url']; ?>" alt="<?php echo $show_article['image_alt']; ?>" />
+                    <img src="<?php echo $server_url."assets/".$show_article['image_url']; ?>" alt="<?php echo $show_article['image_alt']; ?>" />
                     <section>
                         <?php 
                             echo substr(str_replace($tag_to_kill, "", $show_article['content']), 0, 300); 
@@ -59,5 +60,6 @@
             }
         ?>
     </main>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </body>
 </html>
