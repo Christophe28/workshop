@@ -7,17 +7,22 @@ Workshop dedicated to SEO during the BeCode bootcamp
 
 ## How the workshop will be conducted:
 
-During the workshop, we make the candidates discover what SEO is and understand how it works.
+9h30-9h40 : Intro and we make the candidates discover what SEO is and understand how it works.
 
-The public is placed in groups of 2 to find out what are the errors of the site they are proposed.
+9h40-9h55 : Research by groups of 2
 
-Their challenge will be to redo the site with the good practices of SEO 
+9h55-10h10 : Screamingfrog
 
-They will be presented with the expected version of the site that meets all the SEO criteria
+10h25-10h35 : Listening & Correction on Miro
 
-We will end this workshop with a Kahoot!
+10h35-10h45 : Break
 
-In this report, you will find the right version of the site.
+10h50-12h: Coding by the candidates
+
+12h10-12h30 : Debriefing experience & Showing the expected version of reposting
+
+13h30 : We end the workshop with a Kahoot!
+
 
 
 ## Authors
